@@ -1,0 +1,13 @@
+Ques: In CAT exam, Population S.D. is 100. A sample of 25 test taker has a mean of
+520. COnstruct a 80% CONFIDENCE iNTERVAL.
+
+Sol: Mean= 520, S.D= 100, n=25  alpha=1-0.80=0.20, z(0.1)=1.29
+						  0.20
+
+Lower fence= 520-1.29*(100/25^1/2)
+		=545.8
+
+Lower fence= 520+1.29*(100/25^1/2)
+		=494.2
+
+C.I [494.2, 545.8]

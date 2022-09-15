@@ -1,0 +1,26 @@
+Question: Given- 100k employees
+          sample =500 employee  (300 XL, 200 L)
+
+     How much XL and L tshirt should order for 100k employees
+
+Soln: ratio of XL: L is 3:2
+      *Totak employee=100000, using ratio & propotion
+      *it is possible to have 60k employee with XL size and 40k employee with L size.
+      *but will calculate a confidence interval for XL and L coz proprotion is not exact
+ 
+Let Std deviation= 10000 , sample mean=60k, C.I.=95% n=500
+lower fence= 60000-1.96(10000/(500)^1/2)
+           =59121
+
+Higher fence= 60000+1.96(10000/(500)^1/2)
+     		=60878
+
+XL [59121, 60878]
+
+Let Let Std deviation= 10000 , sample mean=40k, C.I.=95% n=500
+lower fence= 40000-1.96(10000/(500)^1/2)
+           =39121
+
+Higher fence= 40000+1.96(10000/(500)^1/2)
+     		=40878
+L [39121, 40878]
